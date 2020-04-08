@@ -1,0 +1,180 @@
+/*****BASE STYLES*****/
+
+body {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Martel', serif;
+    font-size: 36px;
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1400px;
+}
+
+.third-width {
+    float: left;
+    margin: 50px 15px 15px 0px;
+    width: 450px;    
+}
+
+
+/*****HEADER*****/
+
+header {
+    background-color: #ffffff;
+    height: 800px;
+}
+
+nav {
+    float: right;
+    margin: 20px 30px 90px 0px; 
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+header h1 {
+    font-family: 'Martel', serif;
+    font-size: 64px;
+    line-height: 85px;
+    margin-left: 70px;
+}
+
+#computer-icon {
+    padding-right: 30px;
+}
+
+span {
+    color: #299981
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 48px;
+    margin-left: 70px; 
+}
+
+
+/*****ABOUT*****/
+
+#about {
+    background-color: #299981;
+    color: #ffffff;
+    height: 1050px;
+    text-align: center;
+}
+
+#about img {
+    border: solid 2px #ffffff;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#about-copy {
+    font-weight: 300;
+    line-height: 40px;
+    margin: 50px 400px;
+    text-align: center;
+
+}
+
+
+/*****PORTFOLIO*****/
+
+#portfolio {
+    background-color: #ffffff;
+    height: 850px;
+    text-align: center;
+}
+
+#portfolio .third-width {
+    margin: 0px 5px;
+}
+
+#rian-river img {
+    height: 220px;
+    border: solid 1px #d4d2d2;
+}
+
+#portfolio p {
+    font-weight: 300;
+}
+
+
+/*****CONTACT*****/
+
+#contact {
+    height: 650px;
+    background-color: #299981;
+}
+
+#contact h3 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#contact h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+}
+
+#contact p {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;   
+}
+
+#contact-info a {
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 175px;
+    text-decoration: none;
+}
+
+#contact img {
+    height: 50px;
+    width: 50px;
+}
+
+#contact ul {
+    padding: 15px 0px 0px 90px;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#copyright {
+    padding-top: 120px;
+}
+
+#copyright p {
+    text-align: center;
+    font-size: 16px;    
+}
